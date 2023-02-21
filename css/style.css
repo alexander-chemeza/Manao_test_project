@@ -1,0 +1,117 @@
+.hidden {
+    display: none;
+}
+
+header {
+    background-color: #f6fff8;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 3px solid #228075;
+    padding: 20px;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #4e4e4e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #4e4e4e;
+    transition: all 0.5s;
+}
+
+a:hover {
+    color: #2a9d8f;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+input {
+    margin: 10px 5px;
+    display: block;
+    padding: 3px;
+    font-size: 18px;
+    border: 1px solid #cce3de;
+    border-radius: 5px;
+    background-color: #f6fff825;
+}
+
+label {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+label:first-of-type {
+    margin-top: 10px;
+}
+
+input[type=submit] {
+    color: #eee;
+    background-color: #2a9d8f;
+    transition: all 0.5s;
+}
+
+input[type=submit]:hover {
+    background-color: #228075;
+}
+
+.logo {
+    padding-left: 25px;
+}
+
+.control {
+    padding-right: 25px;
+}
+
+#btn-homepage {
+    margin-right: 5px;
+    display: inline-block;
+    padding: 6px 10px;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+
+#btn-registration {
+    margin-right: 5px;
+    display: inline-block;
+    padding: 6px 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    color: #eee;
+    background-color: #2a9d8f;
+    transition: all 0.5s;
+}
+
+#btn-registration:hover {
+    background-color:#228075;
+}
+
+#btn-authentification {
+    margin-left: 5px;
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #2a9d8f;
+    color: #2a9d8f;
+    background-color: #eee;
+    transition: all 0.5s;
+    box-sizing: border-box;
+}
+
+#btn-authentification:hover {
+    background-color: #fff;
+}

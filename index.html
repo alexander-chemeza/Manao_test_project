@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manao test task</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a class="btn" id="btn-homepage" href="#">Manao test task</a>
+        </div>
+        <div class="control">
+            <a class="btn" id="btn-registration" href="#">Register</a>
+            <a class="btn" id="btn-authentification" href="#">Login</a>
+        </div>
+    </header>
+    <main class="container">
+        <div class="box" id="homepage">
+            <h1>Hello, Manao test project</h1>
+        </div>
+        <div class="box hidden" id="registration">
+            <form action="">
+                <label for="new_login">Login:</label>
+                <input type="text" id="new_login" class="input_field">
+                <label for="new_password">Password:</label>
+                <input type="text" id="new_password" class="input_field">
+                <label for="new_confirm_password">Confirm password:</label>
+                <input type="text" id="new_confirm_password" class="input_field">
+                <label for="new_email">Email:</label>
+                <input type="text" id="new_email" class="input_field">
+                <label for="new_name">Name:</label>
+                <input type="text" id="new_name" class="input_field">
+                <input class="btn" type="submit" value="Register">
+            </form>
+        </div>
+        <div class="box hidden" id="authentification">
+            <form action="">
+                <label for="user_login">Login:</label>
+                <input type="text" id="user_login" class="input_field">
+                <label for="user_password">Password:</label>
+                <input type="text" id="user_password" class="input_field">
+                <input class="btn" type="submit" value="Log in">
+            </form>
+        </div>
+    </main>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
