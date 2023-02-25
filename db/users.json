@@ -1,0 +1,20 @@
+[
+    {
+        "username": "qwerty",
+        "password": "$2y$10$FfoqxZ\/JWpHqg7\/D6jESpOJtC5bl009MrWDzudS8RlZ2y\/mxJR9jO",
+        "email": "alexander.chemeza@gmail.com",
+        "name": "Alexander Chemeza"
+    },
+    {
+        "username": "asdf",
+        "password": "$2y$10$Hv8rrjmPRCq.h5y2rKUYvOetj3776PTa\/lIMi4eIcKC8vS79Jvpby",
+        "email": "asdf@mail.com",
+        "name": "asdf"
+    },
+    {
+        "username": "1234",
+        "password": "$2y$10$oisFcuVUQo2g4B4yfd8Xk.gXIxHKDSI0pZpQej0YlgGQizhAnCNr6",
+        "email": "q@mail.by",
+        "name": "12313"
+    }
+]
