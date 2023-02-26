@@ -46,5 +46,11 @@
         "password": "$2y$10$5BWTvjVG5wlCnyXk3sdpe.SFLdgl3mKWn6al8pERW\/vm2YxjeAeNy",
         "email": "alexander.chemeza@gmail.com",
         "name": "Alexander"
+    },
+    {
+        "username": "alexan",
+        "password": "$2y$10$DOSwd5GEGtfderSqXt3g7uuhN1qckzR99R7B0AfCRrw\/MyaaOapia",
+        "email": "alexande@gmail.com",
+        "name": "Alexander"
     }
 ]

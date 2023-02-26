@@ -22,11 +22,11 @@ if(isset($_GET['logout'])){
 <body>
     <header>
         <div class="logo">
-            <a class="btn" id="btn-homepage" href="/">Manao test project</a>
+            <a class="btn btn-transparent" href="/">Manao test project</a>
         </div>
         <div class="control">
-            <a class="btn" href="/pages/account.php"><?php echo $_SESSION['user']; ?></a>
-            <a class="btn" href="?logout">Log out</a>
+            <a class="btn btn-green" href="/pages/account.php"><?php echo $_SESSION['user']; ?></a>
+            <a class="btn btn-red" href="?logout">Log out</a>
         </div>
     </header>
     <main class="container">

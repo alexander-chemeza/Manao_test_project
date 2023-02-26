@@ -17,11 +17,11 @@
 <body>
     <header>
         <div class="logo">
-            <a class="btn" id="btn-homepage" href="/">Manao test project</a>
+            <a class="btn btn-transparent" href="/">Manao test project</a>
         </div>
         <div class="control">
-            <a class="btn" id="btn-registration" href="/pages/register.php">Register</a>
-            <a class="btn" id="btn-authentification" href="/pages/login.php">Login</a>
+            <a class="btn btn-green" href="/pages/register.php">Register</a>
+            <a class="btn btn-green-white" href="/pages/login.php">Login</a>
         </div>
     </header>
     <main class="container">

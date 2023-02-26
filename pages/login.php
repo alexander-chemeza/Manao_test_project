@@ -11,17 +11,17 @@ if(isset($_POST['submit'])){
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manao test task</title>
+    <title>Manao test project</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <header>
         <div class="logo">
-            <a class="btn" id="btn-homepage" href="/">Manao test project</a>
+            <a class="btn btn-transparent" href="/">Manao test project</a>
         </div>
         <div class="control">
-            <a class="btn" id="btn-registration" href="/pages/register.php">Register</a>
-            <a class="btn" id="btn-authentification" href="/pages/login.php">Login</a>
+            <a class="btn btn-green" href="/pages/register.php">Register</a>
+            <a class="btn btn-green-white" href="/pages/login.php">Login</a>
         </div>
     </header>
     <main class="container">
@@ -29,11 +29,9 @@ if(isset($_POST['submit'])){
             <form action="" method="post" enctype="multipart/form-data" autocomplete="off">
                 <h2>Log in</h2>
 
-                <label>Username</label>
-                <input type="text" name="username">
+                <input type="text" name="username" placeholder="Login">
 
-                <label>Password</label>
-                <input type="text" name="password">
+                <input type="password" name="password" placeholder="Password">
 
                 <button type="submit" name="submit">Log in</button>
 
