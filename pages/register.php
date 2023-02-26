@@ -30,15 +30,16 @@
                 <h2>Registration</h2>
 
                 <input type="text" name="login" placeholder="Login">
-
+                <p class="error"><?php echo @$user->error_login_length ?></p>
                 <input type="password" name="password" placeholder="Password">
-
+                <p class="error"><?php echo @$user->error_password_sample ?></p>
                 <input type="password" name="confirm_password" placeholder="Confirm password">
-
-                <input type="email" name="email" placeholder="Email">
-
+                <p class="error"><?php echo @$user->error_password_equality ?></p>
+                <input type="text" name="email" placeholder="Email">
+                <p class="error"><?php echo @$user->error_email ?></p>
                 <input type="text" name="name" placeholder="Name">
-
+                <p class="error"><?php echo @$user->error_name_length ?></p>
+                <p class="error"><?php echo @$user->error_name_format ?></p>
                 <button type="submit" name="submit">Register</button>
 
                 <p class="error"><?php echo @$user->error ?></p>

@@ -16,5 +16,35 @@
         "password": "$2y$10$oisFcuVUQo2g4B4yfd8Xk.gXIxHKDSI0pZpQej0YlgGQizhAnCNr6",
         "email": "q@mail.by",
         "name": "12313"
+    },
+    {
+        "username": "bnm",
+        "password": "$2y$10$ujfnki0CUyPqqXj467nDtO6KaJHxhKoHGNrHrDjHcgwH8Zhp78P7S",
+        "email": "bnm@m.by",
+        "name": "bnm"
+    },
+    {
+        "username": "qaz",
+        "password": "$2y$10$e1dWdgFI3\/Pq8syg\/5Z00u\/aEBvHiJlzJchmBhaGtaFWSajkU3uYe",
+        "email": "qaz@m.by",
+        "name": "qaz"
+    },
+    {
+        "username": "rfv",
+        "password": "$2y$10$GaSqyHzjMQO2ZRlrGl.Gv.lty6I9bVKN1jE33CqpBVhhJ262QzQQO",
+        "email": "rfv@m.by",
+        "name": "rfv"
+    },
+    {
+        "username": "tgb",
+        "password": "$2y$10$eazk946DAub\/5q98B63Io.RsXpIsRjR9R.BKIKegYY.\/Ng9clM7AW",
+        "email": "tgb@b.y",
+        "name": "yhn"
+    },
+    {
+        "username": "spym0nk",
+        "password": "$2y$10$5BWTvjVG5wlCnyXk3sdpe.SFLdgl3mKWn6al8pERW\/vm2YxjeAeNy",
+        "email": "alexander.chemeza@gmail.com",
+        "name": "Alexander"
     }
 ]
